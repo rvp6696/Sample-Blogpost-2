@@ -1,0 +1,140 @@
+body {
+    margin: 0%;
+}
+
+#first {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    width: 100%;
+    height: 755px;
+
+}
+
+#block1 {
+    background: #596e79;
+    padding-top: 280px;
+    padding-bottom: 220px;
+    padding-right: 50px;
+}
+
+.set1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: right;
+}
+
+
+.set2 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8b989f;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#second {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.set3 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border: 3px solid #a1b8c8;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.head1 {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: rgb(150, 148, 148);
+}
+
+.head2, .head4 {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    width: 1080px;
+}
+
+.head2 img {
+    background-image: url(pic1.JPG);
+    background-size: 100% 100%;
+    height: 70px;
+    width: 70px;
+    border-radius: 51%;
+    float: right;
+}
+
+.head4 img {
+    background-image: url(pic2.JPG);
+    background-size: 100% 100%;
+    height: 70px;
+    width: 70px;
+    border-radius: 51%;
+    float: right;
+}
+
+.head3 {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: rgb(150, 148, 148);
+    margin-left: 50px;
+    margin-bottom: 15px;
+    width: 1080px;
+}
+
+#block2 {
+    width: 1100px;
+}
+
+.high {
+    color: rgb(0, 115, 255);
+}
+
+.mid1 {
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 3px 12px 3px;
+}
+
+.mid2 {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 3px 12px 3px;
+}
+
+.mid3 {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 3px 12px 3px;
+}
+
+p {
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 70px;
+}
